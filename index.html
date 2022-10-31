@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width,initial-scale=1" name="viewport" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/6fb7a193c6.js" crossorigin="anonymous"></script>
+<link href="assist/css/style.css" rel="stylesheet" />
+<link href="assist/css/bootstrap.css" rel="stylesheet" />
+<link rel="icon" href="assist/img/logo.png">
+<title>Soul</title>
+
+
+<body>
+
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-2 left_container ">
+
+                    <div class="logo_name">
+                        <div class="logo"><img src="assist/img/logo.webp" height="30px" width="30px" alt=""></div>
+                        <div class="logo_text">MUSIC PLAYER</div>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#" id="home_btn"><i class="fa-solid fa-house"></i>Home</a></li>
+                            <li><a href="#"><i class="fa-solid fa-heart "></i>Liked songs</a></li>
+                            <li><a href="#"><i class="fa-solid fa-phone"></i>Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+
+
+                <div class="col-10 p-0 mid" style="background-color:#121212 ;  overflow-y: scroll;">
+
+                    <div class="col-12  mid_nav_container">
+                        <i class="fa-solid fa-bars hamb_bar"></i>
+                        <div class="angle_btn_container">
+                            <div class="angle_img">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </div>
+                            <div class="angle_img">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12  mt-5 " id="mid_albums_container">
+
+                        <!-- songslist -->
+                        <div class="songs_list_main_container">
+                            <div class="row   " id="songs_list">
+                                <h5 id="album_name">Singer name</h5>
+                                <div class="col-12  pb-3 song_list_details" id="song_list_details_1">
+                                    <div class="s_no_songname" id="list_songname_1"> songname</div>
+                                    <div class="song_total_duration">3:30 </div>
+                                    <div class="list_play_btn_container">
+                                        <li value="0" class="list_play_btn">
+                                            <i class="fa-solid fa-circle-play song_playbtn" id="song_playbtn_1"></i>
+                                        </li>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 pb-3 song_list_details" id="song_list_details_2">
+                                    <div class="s_no_songname" id="list_songname_2"> songname</div>
+                                    <div class="song_total_duration">3:30 </div>
+                                    <div class="list_play_btn_container">
+                                        <li value="1" class="list_play_btn">
+                                            <i class="fa-solid fa-circle-play" id="song_playbtn_2"></i>
+                                        </li>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 pb-3 song_list_details" id="song_list_details_3">
+                                    <div class="s_no_songname" id="list_songname_3">songname </div>
+                                    <div class="song_total_duration">3:30 </div>
+                                    <div class="list_play_btn_container">
+                                        <li value="2" class="list_play_btn">
+                                            <i class="fa-solid fa-circle-play" id="song_playbtn_3"></i>
+                                        </li>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 pb-3 song_list_details" id="song_list_details_4">
+                                    <div class="s_no_songname" id="list_songname_4"> songname</div>
+                                    <div class="song_total_duration"> 3:30</div>
+                                    <div class="list_play_btn_container">
+                                        <li value="3" class="list_play_btn">
+                                            <i class="fa-solid fa-circle-play" id="song_playbtn_4"></i>
+                                        </li>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 pb-3 song_list_details" id="song_list_details_5">
+                                    <div class="s_no_songname" id="list_songname_5">song_name</div>
+                                    <div class="song_total_duration">
+                                        3:59
+                                    </div>
+                                    <div class="list_play_btn_container">
+                                        <li value="4" class="list_play_btn">
+                                            <i class="fa-solid fa-circle-play" id="song_playbtn_5"></i>
+                                        </li>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 pb-3 song_list_details" id="song_list_details_6">
+                                    <div class="s_no_songname" id="list_songname_6">songname</div>
+                                    <div class="song_total_duration">
+                                        3:59
+                                    </div>
+                                    <div class="list_play_btn_container">
+                                        <li value="5" class="list_play_btn">
+                                            <i class="fa-solid fa-circle-play" id="song_playbtn_6"></i>
+                                        </li>
+                                    </div>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+
+                        <!-- cards -->
+                        <div class="cards_main_container " id="cards_main_cont">
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/1.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="honeysinghlistbtn"></i>
+                                <div class="box_details">
+                                    <h5>Yo Yo Honey singh</h5>
+                                </div>
+                            </div>
+
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/2.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="gururandhawalistbtn"></i>
+                                <div class="box_details">
+                                    <h5>Guru Randhawa</h5>
+                                </div>
+                            </div>
+
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/3.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="badshahlistbtn"></i>
+                                <div class="box_details">
+                                    <h5>Badshah</h5>
+                                </div>
+                            </div>
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/4.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="harrdylistbtn"></i>
+                                <div class="box_details">
+                                    <h5>Hardy Sandhu</h5>
+                                </div>
+                            </div>
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/5.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="sidhu_moose_wala"></i>
+                                <div class="box_details">
+                                    <h5>Sidhu Moose Wala</h5>
+                                </div>
+                            </div>
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/6.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="ap_dhillon"></i>
+                                <div class="box_details">
+                                    <h5>AP Dhillon </h5>
+                                </div>
+                            </div>
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/7.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn" id="ncs"></i>
+                                <div class="box_details">
+                                    <h5>NCS</h5>
+                                </div>
+                            </div>
+                            <div class=" offset-1 mb-5 cards">
+                                <img src="assist/img/8.webp" height="150px" width="150px" alt="">
+                                <i class="fa-solid fa-circle-play album_play_btn"></i>
+                                <div class="box_details">
+                                    <h5>Others (MIX)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="assist/img/eq3.gif" alt="" id="visual">
+                    </div>
+
+
+
+
+
+                <div class="col-12 bottom" style="background-color:#181818">
+                    <div class="song_details">
+                        <div class="song_cover">
+                            <img src="assist/covers/main.webp" alt="" height="55px" width="55px" id="cover">
+                        </div>
+
+                        <div class="singer_song_details">
+                            <div class="song_name" id="song_name"> Love dose</div>
+                            <div class="singer" id="singer">YoYo honey singh</div>
+                        </div>
+
+                        <div class="song_details_icons">
+                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-thumbtack"></i>
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <div class="controls_icons">
+                            <i class="fa-solid fa-shuffle " id="random"></i>
+                            <i class="fa-solid fa-backward-step" id="pre"></i>
+                            <i class="fa-solid fa-circle-play" id="play"></i>
+                            <i class="fa-solid fa-forward-step" id="next"></i>
+                            <i class="fa-solid fa-repeat" id="repeat"></i>
+                        </div>
+                        <div class="duration">
+                            <div id="current_duration">0:00</div>
+                            <div id="total_duration">0:00</div>
+                        </div>
+                        <div id="song_progress">
+                            <div id="progressbar"></div>
+                            <!-- <input type="range" name="" value="0" id="progressbar" style="width: 100%;" > -->
+                        </div>
+                    </div>
+
+                    <div class="volume_visual">
+                        <i class="fa-solid fa-chart-simple" id="visual_btn"></i>
+                        <div id="volume_container">
+                            <i class="fa-solid fa-volume-low" id="volume_btn"></i>
+                        </div>
+                        <input type="range" min="0" max="1" value="0.1" step=".1" id="volume">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="aleart">
+            <div>
+                <img src="assist/img/rotate.gif" width="50px" height="50px" alt="">
+            </div>
+            <div style="z-index: 5;">
+                Rotate your phone for best experience
+            </div>
+        </div>
+    </div>
+    <audio id="audio" src="assist/audio/hardy/Hornn Blow.mp3"></audio>
+
+
+
+</body>
+
+<script src="assist/js/index.js"></script>
+<script src="assist/js/audio.js"></script>
+<script src="assist/js/honeysingh.js"></script>
+<script src="assist/js/gururandhawa.js"></script>
+<script src="assist/js/badshah.js"></script>
+<script src="assist/js/harrdy.js"></script>
+<script src="assist/js/sidhu.js"></script>
+<script src="assist/js/apdhillon.js"></script>
+<script src="assist/js/ncs.js"></script>
+
+</html>
